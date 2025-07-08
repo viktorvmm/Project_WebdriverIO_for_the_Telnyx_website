@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@href='/products/voice-ai' and .//p[text()='Voice AI']]"
+}

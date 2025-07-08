@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  wdio:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=ci
+    command: npm run test:chrome 

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "form[aria-label='microsoft-signup-form'] button[type='submit']"
+}

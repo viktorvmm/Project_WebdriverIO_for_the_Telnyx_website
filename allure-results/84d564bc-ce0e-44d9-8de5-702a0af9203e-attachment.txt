@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.MuiBox-root.frontend-customer-portal-1rwgium=Single Sign-On"
+}

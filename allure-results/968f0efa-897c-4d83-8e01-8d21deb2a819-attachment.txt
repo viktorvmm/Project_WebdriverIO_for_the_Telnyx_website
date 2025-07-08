@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//p[normalize-space(text()) = \"Build, test, and launch voice AI agents cheaper, faster, and with total control. Deploy AI agents on a trusted network with one-click telephony integration for smooth, real-time, human-like voice experiences.\"] | .//p[not(.//p[normalize-space(text()) = \"Build, test, and launch voice AI agents cheaper, faster, and with total control. Deploy AI agents on a trusted network with one-click telephony integration for smooth, real-time, human-like voice experiences.\"]) and normalize-space() = \"Build, test, and launch voice AI agents cheaper, faster, and with total control. Deploy AI agents on a trusted network with one-click telephony integration for smooth, real-time, human-like voice experiences.\"]"
+}
