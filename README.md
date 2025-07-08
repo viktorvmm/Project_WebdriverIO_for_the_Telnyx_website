@@ -69,29 +69,36 @@ npx wdio run wdio.edge.conf.js
 
 ---
 
-## Project Structure Example
-
+## Project Structure 
 ```
 Telnyx-wdio/
-├── test/
-│   ├── specs/
-│   │   ├── aiassistant.spec.js
-│   │   ├── contactUs.header.spec.js
-│   │   ├── ... (other tests)
-│   │   └── signUp.valid.spec.js
-│   └── pageobjects/
-│       ├── aiassistant.page.js
-│       ├── ... (other page object files)
-├── wdio.conf.js
-├── wdio.chrome.conf.js
-├── wdio.firefox.conf.js
-├── wdio.edge.conf.js
-├── package.json
-├── Dockerfile
-├── docker-compose.yml
-└── .github/
-    └── workflows/
-        └── ci-allure-pages.yml
+  ├── allure-results/
+  ├── docker-compose.yml
+  ├── Dockerfile
+  ├── login-empty-debug.png
+  ├── login-failed.png
+  ├── package-lock.json
+  ├── package.json
+  ├── README.md
+  ├── signUp_before_wait.png
+  ├── test/
+  │   ├── pageobjects/
+  │   │   ├── aiassistant.page.js
+  │   │   ├── footer.page.js
+  │   │   ├── forgotPassword.page.js
+  │   │   └── ... (ще 5 файлів)
+  │   └── specs/
+  │       ├── aiassistant.spec.js
+  │       ├── contactUs.header.spec.js
+  │       ├── forgotPassword.valid.spec.js
+  │       └── ... (ще 17 файлів)
+  ├── wdio.chrome.conf.js
+  ├── wdio.conf.js
+  ├── wdio.edge.conf.js
+  ├── wdio.firefox.conf.js
+  └── .github/
+      └── workflows/
+          └── ci-allure-pages.yml
 ```
 
 ---
