@@ -21,8 +21,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run WebdriverIO tests
-        run: npm test
+      - name: Run WebdriverIO tests sequentially
+        run: |
+          for file in test/specs/*.js; do
+            npx wdio run wdio.conf.js --spec $file || exit 1
+          done
 
       - name: Generate Allure report
         run: npm run allure:generate
