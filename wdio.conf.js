@@ -5,6 +5,7 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
+    workers: 1,
     //
     // ==================
     // Specify Test Files
